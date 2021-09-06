@@ -1,5 +1,6 @@
 """
-@Author: Raj Tilak Bhowmick
+@AUTHOR: Raj Tilak Bhowmick
+@DATE: 06-09-2021
 This CDK app creates an Aurora Postgres Cluster with secret getting generated from AWS Secrets Manager
 with 30 day single user rotation. Some values such as VPC, Subnet-Group, etc are taken from existing environment
 """
