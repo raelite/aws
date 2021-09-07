@@ -62,7 +62,7 @@ class AuroraPostgresCluster(cdk.Stack):
             instances=1,  # DEFAULT: 2 (WRITER & READER)
             port=3306,
             credentials=_rds.Credentials.from_generated_secret("adminroot"), # AUTOMATICALLY GENERATES SECRET IN SECRETS-MANAGER
-            removal_policy=core.RemovalPolicy.DESTROY,
+            removal_policy=core.RemovalPolicy.SNAPSHOT,
             parameter_group=parameter_group,
             subnet_group=subnet_group
         )
