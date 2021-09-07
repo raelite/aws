@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: EC2 instance with elastic IP association.
+Description: EC2 instance with elastic IP association | @AUTHOR: Raj Tilak Bhowmick | @DATE: 07-09-2021
 
 Parameters:
   AmiId:
